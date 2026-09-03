@@ -1,4 +1,4 @@
-package examples;
+package com.languageFundamentals;
 
 public class TestDemoOne {
 	void results(int a, int b) {

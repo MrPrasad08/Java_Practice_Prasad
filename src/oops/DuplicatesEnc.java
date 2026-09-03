@@ -10,11 +10,20 @@ abstract class DuplicatesEnc {
 			return;
 		}
 		System.out.print("Duplictes in the array : ");
-		for (int i = 0; i < arr.length - 1; i++) {
-
-			for (int j = i + 1; j < arr.length; j++) {
+		for (int i = 0; i < n - 1; i++) {
+			boolean found = false;
+			for (int k = 0; k < i; k++) {
+				if (arr[k] == arr[i]) {
+					found = true;
+					break;
+				}
+			}
+			if (found)
+				continue;
+			for (int j = i + 1; j < n; j++) {
 				if (arr[i] == arr[j]) {
-					System.out.print(arr[i] + " ");
+					System.out.print(arr[j] + " ");
+					break;
 				}
 			}
 		}

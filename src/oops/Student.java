@@ -5,7 +5,7 @@ public class Student {
 	private String name;
 	private String course;
 	private int marks;
-
+	
 	Student(int id, String name, String course, int marks) {
 		this.id = id;
 		this.name = name;
@@ -41,6 +41,6 @@ public class Student {
 		s3.displayStudent();
 		Student s4 = new Student(4, "Bhavani", "Java", 70);
 		s4.displayStudent();
-		
+
 	}
 }
