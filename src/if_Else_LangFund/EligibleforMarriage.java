@@ -1,4 +1,4 @@
-package com.LogicalStatements.IfElse;
+package if_Else_LangFund;
 
 public class EligibleforMarriage {
 
