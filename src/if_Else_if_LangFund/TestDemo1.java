@@ -1,4 +1,4 @@
-package com.LogicalStatements_IfElseIf;
+package if_Else_if_LangFund;
 
 import java.util.Scanner;
 

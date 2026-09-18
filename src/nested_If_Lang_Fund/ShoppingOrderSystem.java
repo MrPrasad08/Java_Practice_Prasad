@@ -1,4 +1,4 @@
-package com.LogicalStatements_NestedIf;
+package nested_If_Lang_Fund;
 
 import java.util.Scanner;
 
